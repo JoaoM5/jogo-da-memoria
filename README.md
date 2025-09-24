@@ -38,6 +38,7 @@ Um jogo da memória moderno e responsivo desenvolvido com HTML, CSS e JavaScript
 ## 📦 Como Usar
 
 ### Opção 1: Link para testar o jogo:
+https://jogo-da-memoria-tau-five.vercel.app/
 
 ### Opção 2: Executar Localmente
 ```bash
