@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+
+  <body>
+    <h1>Jogo da Memória</h1>
+
+    <div class="game-info">
+      <div class="info-item">
+        <div>Jogadas</div>
+        <div class="info-value" id="move-count">0</div>
+      </div>
+      <div class="info-item">
+        <div>Pares Encontrados</div>
+        <div class="info-value" id="pairs-count">0/8</div>
+      </div>
+    </div>
+
+    <div class="game-board" id="game-board"></div>
+
+    <button id="reset-btn">Novo Jogo</button>
+
+    <div class="win-message" id="win-message">
+      <div class="win-content">
+        <h2>Parabéns!</h2>
+        <p>Você completou o jogo em <span id="final-moves">0</span> jogadas!</p>
+        <button id="play-again-btn">Jogar Novamente</button>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
